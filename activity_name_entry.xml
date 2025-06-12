@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F0F0F0">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:contentDescription="Background Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/d865ae22_c90d_4d88_906d_8a73783b9a1e" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Digite Seu Nome"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="357dp"
+            android:layout_height="76dp"
+            android:layout_marginBottom="32dp"
+            android:hint="Seu Nome"
+            android:inputType="textPersonName"
+            android:maxWidth="400dp" />
+
+        <Button
+            android:id="@+id/start_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Começar o Jogo" />
+
+    </LinearLayout>
+
+</RelativeLayout>
